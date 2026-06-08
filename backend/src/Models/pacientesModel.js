@@ -16,7 +16,7 @@ import {Schema , model} from "mongoose"
     birthDate:{
         type: Date
     },  
-    phone:{
+    phon:{
         type: String
     }, 
      address:{
