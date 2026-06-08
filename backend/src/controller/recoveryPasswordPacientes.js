@@ -65,6 +65,8 @@ recoveryPasswordPacienteController.requestCode = async (req, res) => {
     return res.status(500).json({ message: "Internal server error" });
   }
 
+}
+
   //codigo de verificacion
   recoveryPasswordPacienteController.verifyCode = async (req, res) => {
     try {
@@ -130,6 +132,6 @@ recoveryPasswordPacienteController.requestCode = async (req, res) => {
       return res.status(500).json({ message: "Internal server error" });
     }
   }
-}
+
 
 export default recoveryPasswordPacienteController;

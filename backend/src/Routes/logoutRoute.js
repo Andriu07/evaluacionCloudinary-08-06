@@ -4,6 +4,6 @@ import logoutController from "../controller/logoutController.js"
 const router = express.Router();
 
 router.route("/")
-.post(loginPacientesController.login)
+.post(logoutController.logout)
 
 export default router;

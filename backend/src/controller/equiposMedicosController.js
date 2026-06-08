@@ -1,5 +1,5 @@
 
-import equiposMedicosModel from "./Models/equiposMedicosModel.js"
+import equiposMedicosModel from "../Models/equiposMedicosModel.js"
 
 const equiposMedicosController = {};
 

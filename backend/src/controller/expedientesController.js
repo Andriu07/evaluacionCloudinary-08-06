@@ -1,4 +1,4 @@
-import expedientesModel from "./Models/expedientesModel.js"
+import expedientesModel from "../Models/expedientesModel.js"
 
 const expedientesController = {};
 

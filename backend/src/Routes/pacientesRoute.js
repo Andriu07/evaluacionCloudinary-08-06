@@ -1,6 +1,6 @@
 import express from "express"
 import pacientesController from "../controller/PacientesController.js"
-import  upload from "../Utils/configCloudinary.js"
+import upload from "../Utils/configCloudinary.js"
 
 const router = express.Router();
 

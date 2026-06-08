@@ -95,7 +95,7 @@ registerPacienteController.register = async (req, res) => {
     console.log("error" + error);
     return res.status(500).json({ message: "Internal server error" });
   }
-
+}
   //verificar el codigo que acabamos de enviar
   registerPacienteController.verifyCode = async (req, res) => {
     try {
@@ -155,7 +155,7 @@ registerPacienteController.register = async (req, res) => {
       return res.status(500).json({ message: "Internal server error" });
     }
   }
-}
+
 
 
 export default registerPacienteController;

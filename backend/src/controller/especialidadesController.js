@@ -1,4 +1,4 @@
-import especialidadesModel from "./Models/especialidadesModel.js"
+import especialidadesModel from "../Models/especialidadesModel.js"
 
 const especialidadesController = {};
 

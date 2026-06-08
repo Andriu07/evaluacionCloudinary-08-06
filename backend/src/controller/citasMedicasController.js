@@ -1,4 +1,4 @@
-import citasMedicasModel from "./Models/citasMedicasModel.js"
+import citasMedicasModel from "../Models/citasMedicasModel.js"
 
 const citasMedicasController = {};
 
